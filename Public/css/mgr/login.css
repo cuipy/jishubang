@@ -1,0 +1,88 @@
+@charset utf8;
+
+
+/***************head部分***************/
+.bx_head{
+	height:80px;
+	border-bottom:solid 1px #ddd;
+	padding-left:120px;
+	padding-right:120px;
+}
+
+.bx_head .img_logo{
+	height:50px;
+	margin-top:15px;
+}
+.bx_head .txt_logo{
+	display:inline-block;
+	margin-left:5px;
+	font-family:"微软雅黑";
+	font-size:25px;
+	font-weight:bold;
+	padding-top:24px;
+}
+.bx_head .back{
+	display:inline-block;
+	margin-top:40px;
+	color:#ccc;
+}
+
+.bx_main{
+	margin:50px 120px;
+}
+.bx_main .left_banner{
+	width:60%;
+	float:left;
+}
+.bx_main .right_login{
+	width:40%;
+	float:right;
+}
+.bx_main .form_login{
+	width:90%;
+	height:400px;
+	border:solid 2px #ddd;
+	padding:40px;
+}
+
+.bx_main .form_login .title{
+	margin:10px;
+	display:inline-block;
+	padding:10px 30px;
+	border-bottom:solid 2px #09f;
+	font-size:14px;
+	font-weight:bold;
+}
+.bx_main .form_login .txtbox{
+	margin:10px;
+	width:90%;
+}
+
+.btn_login{
+	width:90%;
+	height:36px;
+	margin:10px;
+	border:0px;
+	color:#fff;
+	font-size:14px;
+	background-image:linear-gradient(to bottom, #108cee, #0765e4);
+	cursor:pointer;
+}
+.btn_login:hover{
+	background-image:linear-gradient(to top, #108cee, #0765e4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

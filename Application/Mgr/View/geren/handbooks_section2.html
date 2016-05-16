@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<!--[if IE 7]>
+<html class="ie ie7" lang="zh-CN">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="zh-CN">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="zh-CN">
+<!--<![endif]-->
+
+<head>
+	<title>技术帮</title>
+	<include file="Inc:scripts" />
+	<link type='text/css' href="__PUBLIC__/css/mgr/page1.css"  rel='stylesheet'  media="screen"/>
+
+</head>
+<body>
+<include file="Inc:page1_head" />
+<include file="Inc:left_geren" />
+
+<!-- 主体部分，显示分类列表 -->
+<div class="main">
+	<div class="bx_search">
+		<input class="textbox1" type="text" placeholder="手册名称">  <div class="btn2 btn_blue1"><i class="icon-search"></i> 查找</div>
+		<div class="fr btn1 btn_green1" onclick="history.back();">返回</div>
+	</div>
+	
+	<table class="main_list" cellpadding="0" cellspacing="0" width="100%">
+		<tr class="head">
+			<td width="140">手册名称</td>
+			<td width="80">所属频道</td>
+			<td width="100">章名</td>
+			<td width="80">节名</td>
+			<td>简介</td>
+			<td width="140" align="center"><a href="handbooks_section2_add" class="btn1 btn_blue1"><i class="icon-plus-sign"></i> 新增</a></td>
+		</tr>
+		<tr class="body"><td>Java常用类</td><td>Java基础</td>
+		<td>Java基本语法</td>
+		<td class="green1">if语句</td>
+		<td>将JAVA中经常使用的功能进行总结整理，包括字符串处理、文件上传下载、加密解密、图片处理等</td>
+		<td class="operate"><a href="handbooks_section2_edit" class="btn1 btn_green1"><i class="icon-ok-sign"></i> 编辑</a>&nbsp;&nbsp;
+		<a href="#" class="btn1 btn_red1"><i class="icon-remove-sign"></i> 删除</a> </td></tr>
+	</table>
+
+</div>
+
+	
+<include file="Inc:foot"/>
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+	
+});
+
+</script>
+
+
+

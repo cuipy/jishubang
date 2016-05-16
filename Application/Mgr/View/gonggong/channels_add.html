@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!--[if IE 7]>
+<html class="ie ie7" lang="zh-CN">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="zh-CN">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="zh-CN">
+<!--<![endif]-->
+
+<head>
+	<title>技术帮</title>
+	<include file="Inc:scripts" />
+	<link type='text/css' href="__PUBLIC__/css/mgr/page1.css"  rel='stylesheet'  media="screen"/>
+
+</head>
+<body>
+<include file="Inc:page1_head" />
+<include file="Inc:left_gonggong" />
+
+<!-- 主体部分，显示频道列表 -->
+<div class="main">
+	<table class="tbl_form" cellpadding="0" cellspacing="0" width="98%">
+		<tr>
+			<td colspan="3" class="head">新增频道</td></tr>
+		<tr>
+			<td class="title" width="140" height="40">频道名称：</td>
+			<td width="200"><input type="text" class="textbox1" placeholder="频道名称"></td>
+			<td class="info">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="title" width="140" height="40">管理员：</td>
+			<td width="200"><input type="text" class="textbox1" placeholder="管理员的帐号"></td>
+			<td class="info">请填写注册用户的登录帐号</td>
+		</tr>
+		<tr>
+			<td class="title" width="140" height="40">描述：</td>
+			<td colspan="2"><textarea  cols="60" rows="4"></textarea></td>
+		</tr>
+		<tr>
+			<td width="140" height="40"></td>
+			<td colspan="2">
+				<button class="btn2 btn_green1">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;
+				<button class="btn2 btn_red1">取消</button>
+			</td>
+		</tr>
+	
+	</table>
+
+</div>
+
+	
+<include file="Inc:foot"/>
+</body>
+</html>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+	textareaHeight();
+});
+
+function textareaHeight(){
+	$("textarea").textareaAutoHeight();
+}
+
+</script>
+
+
+

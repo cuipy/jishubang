@@ -1,0 +1,37 @@
+@charset utf8;
+
+.bx_head{
+	background-color:#06c;
+	height:49px;
+}
+.bx_logo{
+	float:left;
+	height:49px;
+}
+.img_logo{
+	height:32px;
+	margin-top:8px;
+	margin-left:10px;
+}
+.a_logo{
+	margin-right:100px;
+	font-family:"黑体";
+	line-height:49px;
+	font-size:28px;
+	color:#fff;
+}
+.bx_head .a_channel{
+	display:inline-block;
+	padding:16px;
+	color:#fff;
+}
+.bx_head .a_channel:hover{
+	background-color:#04c;
+}
+
+
+.bx_foot{
+	text-align:center;
+	padding:120px;
+	
+}

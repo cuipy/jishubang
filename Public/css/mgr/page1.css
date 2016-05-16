@@ -1,0 +1,237 @@
+@charset utf8;
+
+
+/***************head部分***************/
+.bx_head{
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	background-color:#06c;
+	height:49px;
+}
+.bx_logo{
+	float:left;
+	height:49px;
+}
+.img_logo{
+	height:32px;
+	margin-top:8px;
+	margin-left:10px;
+}
+.a_logo{
+	font-family:"黑体";
+	line-height:49px;
+	font-size:28px;
+	color:#fff;
+}
+.btn_head{
+	display:inline-block;
+	color:#fff;
+	line-height:49px;
+	font-size:14px;
+	padding-left:20px;
+	padding-right:20px;
+	cursor:pointer;
+}
+.btn_head a{
+	color:#fff;
+}
+.btn_head:hover{
+	background-color:#008fbf;
+}
+
+.bx_foot{
+	margin-left:200px;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+/*********************left部分********************/
+.box_left{
+	position:fixed;
+	top:49px;
+	left:0px;
+	bottom:0px;
+	width:200px;
+	background-color:#333;
+	color:#fff;
+}
+.box_left li{
+	height:40px;
+	line-height:40px;
+}
+.box_left .title{
+	background-color:#22282e;
+	padding-left:36px;
+}
+.box_left .txt{
+	padding-left:14px;
+}
+.box_left .menu,.box_left .title{
+	cursor:pointer;
+}
+.box_left .menu .ico{
+	margin-left:20px;
+	font-size:18px;
+	color:#e5e5e5;
+}
+.box_left .menu[actived],.box_left .menu[actived]:hover{
+	background-color:#0099cc;
+}
+.box_left .menu:hover .ico{
+	color:#fff;
+}
+.box_left .menu:hover{
+	background-color:#37424f;
+}
+
+
+/****************主体部分*********************/
+.main{
+	margin-left:200px;
+	margin-top:49px;
+	padding:10px;
+}
+.main2{
+	margin-left:200px;
+	margin-top:49px;
+}
+.main_list{
+	border:solid 1px #ddd;
+}
+.main_list .head {
+	background-color:#f5f6fa;
+}
+.main_list td{
+	border-bottom:solid 1px #e1e6eb;
+}
+.main_list tr:last-child td{
+	border-bottom-width:0px;
+}
+.main_list .head td{
+	padding:8px;
+}
+.main_list .body td{
+	padding:12px 8px;
+}
+.main_list .body:hover{
+	background-color:#f9f9fa;
+}
+.main_list .operate{
+	text-align:center;
+}
+
+/********列表的查找区域********/
+.bx_search{
+	margin:10px;
+}
+.tbl_form{
+	margin:20px;
+	background-color:#fafafa;
+}
+.tbl_form .head{
+	padding-left:40px;
+	padding-top:18px;
+	padding-bottom:18px;
+	font-size:18px;
+	font-weight:bold;
+}
+.tbl_form .title{
+	line-height:48px;
+	padding-left:30px;
+	color:#999;
+}
+
+.tbl_a1{
+	color:#fff;
+	background-color:#940;
+	padding:3px 5px;
+}
+
+
+.firstRow{
+	background-color:#f2f2f2;
+}
+
+
+/******************级联页面************************/
+.cascade1{
+	display:block;
+	float:left;
+	width:200px;
+	min-height:300px;
+	background-color:#d6d6d6;
+}
+.cascade1 li,.cascade2 li,.cascade3 li{
+	display:block;
+}
+.cascade1 .head{
+	display:block;
+	height:60px;
+	padding-left:20px;
+	padding-top:25px;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#ccc;
+}
+.cascade1 .item{
+	display:block;
+	height:40px;
+	padding-left:20px;
+	padding-top:10px;
+	font-size:13px;
+	color:#333;
+}
+.cascade1 .item:hover{
+	color:#333;
+	background-color:#f4f6f8;
+}
+.cascade1  .item[actived]{
+	font-weight:bold;
+	background-color:#eaedf1;
+}
+
+
+.cascade2{
+	display:block;
+	float:left;
+	width:200px;
+	min-height:300px;
+	background-color:#eaedf1;
+}
+.cascade2 .head{
+	display:block;
+	height:60px;
+	background-color:#fff;
+}
+.cascade2 .item{
+	display:block;
+	height:40px;
+	padding-left:20px;
+	padding-top:10px;
+	font-size:13px;
+	color:#333;
+}
+.cascade2 .item:hover{
+	color:#333;
+	background-color:#f4f6f8;
+}
+.cascade2  .item[actived]{
+	font-weight:bold;
+	background-color:#fff;
+}
+
+.cascade3{
+	display:block;
+	margin-left:400px;
+	min-height:300px;
+}
+
+
+
+
+
+
+
