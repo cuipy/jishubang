@@ -40,6 +40,15 @@
 	<div class="fl">
 		<a href="/jishubang/index.php/home/channel" class="a_channel">HTML</a>
 		<a href="/jishubang/index.php/home/channel" class="a_channel">CSS</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">JavaScript</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">JQuery</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">Java</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">Spring</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">Struts2</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">Hibernate</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">SQL语言</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">MySQL</a>
+		<a href="/jishubang/index.php/home/channel" class="a_channel">Oracle</a>
 	</div>
 
 </div>
