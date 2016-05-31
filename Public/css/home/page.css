@@ -29,9 +29,33 @@
 	background-color:#04c;
 }
 
+.bx_main{
+	min-height:300px;
+	margin:auto;
+}
+@media screen and (min-width:1201px){
+	.bx_main{width:1200px;}
+}
+@media screen and (max-width:1200px){
+	.bx_main{width:1024px;}
+}
 
 .bx_foot{
 	text-align:center;
 	padding:120px;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

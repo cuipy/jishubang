@@ -37,7 +37,9 @@ a{
 	display:block;
 	height:100%;
 }
-
+.cl{
+	clear:both;
+}
 .fl{
 	float:left;
 }

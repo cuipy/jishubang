@@ -10,8 +10,8 @@
 <!--<![endif]-->
 
 <head>
-	<title>技术帮</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>技术帮</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <link type="text/css" href="/jishubang/Public/css/common.css" rel="stylesheet"   media="screen"/>
 
@@ -25,7 +25,7 @@
 <script src="/jishubang/Public/js/respond.js"></script>
 <![endif]-->
 
-	<link type='text/css' href="/jishubang/Public/css/home/page.css"  rel='stylesheet'  media="screen"/>
+<link type='text/css' href="/jishubang/Public/css/home/page.css"  rel='stylesheet'  media="screen"/>
 
 </head>
 <body>
@@ -53,8 +53,16 @@
 
 </div>
 
+<<<<<<< HEAD
  
+=======
 
+<!-- 主区域 -->
+<div class="bx_main">
+>>>>>>> 4dce8802cc2d6436c8e0da7c0d9ed08dfd7776de
+
+
+</div>
 
 
 
